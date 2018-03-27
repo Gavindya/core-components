@@ -2,6 +2,6 @@ package com.grydtech.msstack.corecomponents.components.handlers;
 
 import com.grydtech.msstack.corecomponents.components.Request;
 
-public interface QueryHandler<RQ extends Request, RS> {
-    RS handle(RQ request);
+public interface QueryHandler<R extends Request, S> {
+    S handle(R request);
 }
